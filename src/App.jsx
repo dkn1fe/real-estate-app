@@ -1,15 +1,9 @@
-import Header from "./companents/header/Header";
+import HomePage from './companents/homePage/HomePage';
 import "./App.scss";
 
 function App() {
   return (
-    <>
-       <div className="header">
-        <div className="container">
-          <Header/> 
-          </div>
-       </div>
-    </>
+    <HomePage/>
   );
 }
 

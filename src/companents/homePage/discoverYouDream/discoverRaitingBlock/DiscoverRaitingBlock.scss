@@ -1,0 +1,27 @@
+
+.discover-block{
+    width:240px;
+    height: 121px;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    background-color: #1A1A1A;
+    &-title{
+        color:white;
+        font-size: 27px;
+    }
+    &-subtitle{
+        color:#999999;
+        font-size: 18px;
+        margin-top: -13px;
+    }
+    &-container{
+        padding:0px 15px;
+    }
+}
+
+.discover-cards{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    gap:30px;
+}

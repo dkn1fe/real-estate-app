@@ -1,4 +1,4 @@
-import Logo from '../header/logo/Logo'
+import Logo from './logo/Logo'
 import NavButtons from './nav-buttons/Nav-buttons';
 import ContactUs from './contactUs/ContactUs';
 import './Header.scss'
