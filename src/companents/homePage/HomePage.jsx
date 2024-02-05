@@ -1,4 +1,5 @@
 import Header from './header/Header';
+import LinkOffers from './linkOffers/LinkOffers';
 import DiscoverYouDream from './discoverYouDream/DiscoverYouDream';
 import './HomePage.scss'
 
@@ -14,6 +15,9 @@ const HomePage = () => {
             <div className='container'>
             <DiscoverYouDream/>
             </div>
+        </section>
+        <section className='offers-link'>
+             <LinkOffers/>
         </section>
      </>
     )
